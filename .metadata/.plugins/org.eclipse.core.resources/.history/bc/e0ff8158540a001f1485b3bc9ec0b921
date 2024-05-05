@@ -1,0 +1,8 @@
+package com.sarthak.restfult.webservices.social.media.controller;
+
+/*
+ * disc: this is user controller for static user data doesn't used in memory or physical db.
+ */
+public class UserController {
+
+}

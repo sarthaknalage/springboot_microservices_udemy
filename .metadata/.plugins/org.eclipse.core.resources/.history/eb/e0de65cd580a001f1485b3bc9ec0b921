@@ -1,0 +1,56 @@
+package com.sarthak.restfult.webservices.social.media.model;
+
+import java.time.LocalDate;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+
+public class User {
+	private Integer id;
+	
+	private String userName;
+	
+//	@JsonFormat(shape =JsonFormat.Shape.STRING, pattern = "yyyy-mm-dd")
+	private String birtDate;
+
+	public User() {
+		super();
+	}
+
+	public User(Integer id, String userName, String birtDate) {
+		super();
+		this.id = id;
+		this.userName = userName;
+		this.birtDate = birtDate;
+	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public String getUserName() {
+		return userName;
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+
+	public String getBirtDate() {
+		return birtDate;
+	}
+
+	public void setBirtDate(LocalDate birtDate) {
+		this.birtDate = birtDate;
+	}
+
+	@Override
+	public String toString() {
+		return "User [id=" + id + ", userName=" + userName + ", birtDate=" + birtDate + "]";
+	}
+	
+	
+}

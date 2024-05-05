@@ -1,0 +1,12 @@
+package com.sarthak.restfult.webservices.social.media.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+/*
+ * disc: this is user controller for static user data doesn't used in memory or physical db.
+ */
+
+@RestController
+public class UserController {
+
+}

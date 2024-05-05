@@ -1,0 +1,18 @@
+package com.sarthak.restfult.webservices.social.media.service;
+
+import java.util.List;
+
+import com.sarthak.restfult.webservices.social.media.model.User;
+
+public class UserService {
+	
+//	We didn't use any kind of database so create static list for storing the Users and performing CURD operations.
+	
+	private static List<User> userList;
+	
+	static {
+		userList=List.of(
+				
+				)
+	}
+}

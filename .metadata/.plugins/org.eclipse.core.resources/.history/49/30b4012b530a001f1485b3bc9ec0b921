@@ -1,0 +1,23 @@
+package com.sarthak.restfult.webservices.social.media.service;
+
+import java.time.LocalDate;
+import java.util.List;
+
+import com.sarthak.restfult.webservices.social.media.model.User;
+
+public class UserService {
+	
+//	We didn't use any kind of database so create static list for storing the Users and performing CURD operations.
+	
+	private static List<User> userList;
+	
+	static {
+		userList=List.of(
+				new User(1, "Sarthak", LocalDate.now().minusYears(21)),
+				new User(2, "Ruturaj", LocalDate.now().minusYears(25)),
+				new User(3, "Rupali", LocalDate.now().minusYears(43)),
+				new User(4, "Sanjay", LocalDate.now().minusYears(52))
+				
+				)
+	}
+}

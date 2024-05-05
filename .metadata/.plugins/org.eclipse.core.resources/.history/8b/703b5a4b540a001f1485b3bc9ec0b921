@@ -1,0 +1,5 @@
+package com.sarthak.restfult.webservices.social.media.controller;
+
+public class UserController {
+
+}
