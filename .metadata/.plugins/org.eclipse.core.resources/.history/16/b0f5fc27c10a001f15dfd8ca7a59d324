@@ -1,0 +1,2 @@
+spring.application.name=restfult.webservices.social.media
+logging.level.org.springframework=debug

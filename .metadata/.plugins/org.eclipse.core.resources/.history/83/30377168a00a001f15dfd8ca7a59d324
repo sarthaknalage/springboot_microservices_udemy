@@ -1,0 +1,14 @@
+package com.sarthak.restfult.webservices.social.media.centralizedExceptionHandling;
+
+import java.time.LocalDateTime;
+
+public class ErrorDetails {
+	
+	private LocalDateTime timestamp;
+	
+	private String errMsg;
+	
+	private String errDesc;
+	
+
+}

@@ -1,0 +1,16 @@
+package com.sarthak.restfult.webservices.social.media.internationalization;
+// This RestController for handling the request of Internationalization content
+// Here we do greet to the User with their native language
+
+import org.springframework.context.MessageSource;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class InternationalizationController {
+
+	private MessageSource messagesource;
+	
+	public InternationalizationController(MessageSource messageSource) {
+		this.messagesource=messageSource;
+	}
+}
