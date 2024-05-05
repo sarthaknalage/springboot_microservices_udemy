@@ -1,0 +1,12 @@
+package com.sarthak.restfult.webservices.social.media.versioning;
+
+// Here we see basic Vesion control used for REST API designing
+/*
+ * 	1. resources(directly resource designing as per versions requirement) : used by twitter
+ * 	2. parameter versioning. used by: amazon
+ * 	3. header versioning (X-API-VERSION=1) used by: Microsoft
+ *  4. mediatype versioning. used by github
+ */
+public class VersionController {
+
+}

@@ -1,0 +1,11 @@
+package com.sarthak.restfult.webservices.social.media.versioning;
+
+public class Student {
+	
+	private String studentName;
+	private String stdRollNumber;
+	private Long stdMobNumber;
+	private String stdEmail;
+	
+
+}

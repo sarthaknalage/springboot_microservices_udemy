@@ -1,0 +1,11 @@
+package com.sarthak.restfult.webservices.social.media.hateoas;
+
+import org.springframework.web.bind.annotation.RestController;
+
+//  HATEOAS( Hypermedia as the engine of application state) defines the subsequent operation you can perform on response
+
+@RestController
+public class HateoasController {
+	
+
+}
